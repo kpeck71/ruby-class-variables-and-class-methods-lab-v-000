@@ -44,9 +44,8 @@ class Song
       else
         genre_count[genre] << genre
       end
-
       genre_count[genre]=number
-
+    end
   end
 
   def artist_count
