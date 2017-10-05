@@ -38,10 +38,10 @@ class Song
     #genres.group_by{|k, v| k, v }
 
     @@genres.each_with_object do |genre|
-      genre == 0
+      number == 0
       if genre?
 
-      genre_count[genre]=numbers
+      genre_count[genre]=number
 
   end
 
