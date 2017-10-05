@@ -33,7 +33,6 @@ class Song
     #binding.pry
     # @@genres => ["rap", "rap", "pop"]
     # genres ==> ["rap", "pop"]
-
     @@genres.each do |genre|
       genre_count = {}
       if genre_count[genre]
