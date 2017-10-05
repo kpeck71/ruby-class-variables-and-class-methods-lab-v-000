@@ -30,13 +30,19 @@ class Song
   end
 
   def self.genre_count
-    binding.pry
+    #binding.pry
     # @@genres => ["rap", "rap", "pop"]
     # genres ==> ["rap", "pop"]
     genre_count = {}
     #genre_count[*genres.group_by{ |v| v }.flat_map{ |k, v| [k, v.size] }]
     #genres.group_by{|k, v| k, v }
-    #genres.select {|k,v| v.size}
+    @@genres.each do |v|
+      v.size
+    end
+    @@genres.each_with_object do |values|
+      if values
+      genre_count[values]=numbers
+    
   end
 
   def artist_count
