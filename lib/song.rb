@@ -43,6 +43,7 @@ class Song
         number += 1
       else
         genre_count[genre] << genre
+      end
 
       genre_count[genre]=number
 
