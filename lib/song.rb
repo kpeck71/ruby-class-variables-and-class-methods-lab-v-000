@@ -38,7 +38,7 @@ class Song
     #genres.group_by{|k, v| k, v }
 
     @@genres.each_with_object do |genre|
-      number == 0
+      number = 0
       if @@genres.include?(genre)
         number += 1
 
