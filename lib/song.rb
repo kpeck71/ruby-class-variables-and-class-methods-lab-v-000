@@ -41,6 +41,8 @@ class Song
       number = 0
       if @@genres.include?(genre)
         number += 1
+      else
+        genre_count[genre] << genre
 
       genre_count[genre]=number
 
