@@ -30,7 +30,7 @@ class Song
   end
 
   def self.genre_count
-    binding.pry
+    #binding.pry
     # @@genres => ["rap", "rap", "pop"]
     # genres ==> ["rap", "pop"]
     genre_count = {}
