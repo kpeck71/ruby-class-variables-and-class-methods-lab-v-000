@@ -39,9 +39,9 @@ class Song
 
     @@genres.each_with_object do |genre|
       genre == 0
-      if value?
+      if genre?
 
-      genre_count[value]=numbers
+      genre_count[genre]=numbers
 
   end
 
