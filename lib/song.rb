@@ -29,7 +29,7 @@ class Song
     @@genres.uniq
   end
 
-  def self.genre_count
+  def genre_count
     #binding.pry
     # @@genres => ["rap", "rap", "pop"]
     # genres ==> ["rap", "pop"]
