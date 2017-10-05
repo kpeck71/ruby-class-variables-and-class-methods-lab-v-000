@@ -36,13 +36,13 @@ class Song
     genre_count = {}
     #genre_count[*genres.group_by{ |v| v }.flat_map{ |k, v| [k, v.size] }]
     #genres.group_by{|k, v| k, v }
-    @@genres.each do |v|
-      v.size
-    end
-    @@genres.each_with_object do |values|
-      if values
-      genre_count[values]=numbers
-    
+
+    @@genres.each_with_object do |genre|
+      value == 0
+      if value?
+
+      genre_count[value]=numbers
+
   end
 
   def artist_count
