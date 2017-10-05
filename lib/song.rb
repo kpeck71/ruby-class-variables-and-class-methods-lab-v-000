@@ -45,6 +45,18 @@ class Song
   end
 
   def artist_count
+    artist_count = {}
+    # @@genres => ["rap", "rap", "pop"]
+    # genres ==> ["rap", "pop"]
+    @@artists.each do |artist|
+      if artist_count[genre]
+        artist_count[genre] += 1
+      else
+        artist_count[genre] = 1
+      end
+    end
+    artist_count
+  end
   end
 
 
