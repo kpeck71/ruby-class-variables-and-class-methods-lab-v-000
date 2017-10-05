@@ -34,8 +34,6 @@ class Song
     # @@genres => ["rap", "rap", "pop"]
     # genres ==> ["rap", "pop"]
     genre_count = {}
-    #genre_count[*genres.group_by{ |v| v }.flat_map{ |k, v| [k, v.size] }]
-    #genres.group_by{|k, v| k, v }
 
     @@genres.each_with_object do |genre|
       number = 0
