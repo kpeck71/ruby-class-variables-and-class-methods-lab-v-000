@@ -35,7 +35,7 @@ class Song
     # genres ==> ["rap", "pop"]
     genre_count = {}
 
-    @@genres.each_with_object do |genre|
+    genres.each_with_object do |genre|
       number = 0
       if @@genres.include?(genre)
         number += 1
